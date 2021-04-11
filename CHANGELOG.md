@@ -54,7 +54,7 @@ All notable changes to this project will be documented in this file.
      * Activity: name, description, type, project, responsible, work (`planned - real = left`), component, product, status
    * Some buttons may appear below depending on the class and current status:
      * Assign
-     * Start / stop work
+     * Start / stop work (doesn't work properly until V4.2+, work time is attributed to the wrong user)
  * `/about` -> displays information about the bot
 
 ## V2.1 - 2021-03-31
