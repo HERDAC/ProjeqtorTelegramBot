@@ -102,7 +102,7 @@ All notable changes to this project will be documented in this file.
  * You can display elements from there reference
    > **This is intended for unique references, from V4.2+ there will be an option to choose from multiple elements with the same reference**
    * `/reference` -> asks for a reference and display information about the element
-   * OR type `@BOT_NAME` and start writing a reference to be prompted with available references which you can select. When you click on one, it'll send the command `/reference `*`selected-reference`* which does the same as above
+   * OR type `@BOT_NAME` and start writing a reference to be prompted with available references which you can select. When you click on one, it'll send the command `/reference selected-reference` which does the same as above
 
 ### Fixed
  * Responsible is now correctly set when a ticket template is used
