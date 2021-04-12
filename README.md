@@ -1,7 +1,7 @@
 # ProjeQtOr Telegram Bot
 This project is about a telegram bot I created to interact with [ProjeQtOr](https://www.projeqtor.org/en/), a quality based open-source project organizer.
 The files available in this repository are all written by myself, with the exception of some snippets copied and modified from ProjeQtOr's source code.
-This project is developed for HERDAC society but it is open-source (AGPL V3), as it defined by [ProjeQtOr's license](https://www.projeqtor.org/en/copyright). If you have any questions or issues, don't hesitate to contact me.
+This project is developed for HERDAC society but it is open-source (AGPL V3), as defined by [ProjeQtOr's license](https://www.projeqtor.org/en/copyright). If you have any questions or issues, don't hesitate to contact me.
 Feel free to send your own ideas, though you should probably post them on [ProjeQtOr's forum](https://www.projeqtor.org/en/forum)
 
 ## How it works
