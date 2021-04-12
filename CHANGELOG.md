@@ -21,7 +21,7 @@ All notable changes to this project will be documented in this file.
 ## V1.1 - 2021-03-22
  
 ### Added
- * New field in ticket templates: responsible (doesn't work until V4.0+)
+ * New fields in ticket templates: responsible (doesn't work until V4.0+), criticality
  * New editable fields with the bot: type, project, urgency, context, activity
  * Added icon for ticket template menu
 
