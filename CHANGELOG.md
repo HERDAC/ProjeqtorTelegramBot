@@ -65,12 +65,8 @@ All notable changes to this project will be documented in this file.
 
 ## V2.2 - 2021-04-05
  
-### Added
- 
 ### Changed
  * When selecting a project to display elements, you can choose only the selected project or include its sub-projects recursively
-
-### Fixed
 
 ## V3.0 - 2021-04-07
  
