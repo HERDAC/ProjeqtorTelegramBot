@@ -6,7 +6,7 @@ Feel free to send your own ideas, though you should probably post them on [Proje
 
 ## How it works
 
-To make this bot work, I first had to create a new user on projeqtor with admin rights. I obvisously created a [telegram bot](https://core.telegram.org/bots) and a node-red flow.
+To make this bot work, I first had to create a new user on projeqtor with admin rights. I obvisously created a [telegram bot](https://core.telegram.org/bots) and also a node-red flow.
 
 ### The projeqtor user
 
@@ -21,7 +21,7 @@ From V4.0+, set the bot to [inline mode](https://core.telegram.org/bots/inline).
 
 ### Node-red
 
-The node-red flow is essential. It gets the message updates from the bot and calls the script. The files "`flows.json`" contain the importable flow for each version. It uses the module [node-red-contrib-telegrambot](https://flows.nodered.org/node/node-red-contrib-telegrambot)
+The node-red flow is essential. It gets the message updates from the bot and calls the script. The files "`flows.json`" contain the importable flow for each version. It uses the module [node-red-contrib-telegrambot](https://flows.nodered.org/node/node-red-contrib-telegrambot). Befor importing, replace all "`PROJEQTOR-URL`" with the url to your projeqtor. When imported, for all the blue nodes (telegram nodes), set the `bot` field to your configured bot.
 
 ## Other
 
