@@ -12,7 +12,7 @@ To make this bot work, I first had to create a new user on projeqtor with admin 
 
 Nothing special, just admin rights.
 
-Replace "`PROJEQTOR-USER`" in the files with its name. Replace "`PROJEQTOR-PWD`" in the files with the password for this user. (V1.2-)
+Replace "`PROJEQTOR-USER`" in the files with its name. Replace "`PROJEQTOR-PWD`" in the files with the password for this user. Replace "`PROJEQTOR-API`" in the files with the api key of this user. (V1.2-)
 
 ### The bot
 
