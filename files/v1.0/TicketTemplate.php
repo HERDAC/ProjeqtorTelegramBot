@@ -38,7 +38,6 @@ class TicketTemplate extends SqlElement {
     public $idProject;
     public $idActivity;
     public $idUrgency;
-    public $idCriticality;
     public $idContext1;
     public $idContext3;
     public $idle;
