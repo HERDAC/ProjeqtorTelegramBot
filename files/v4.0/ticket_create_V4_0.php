@@ -1048,9 +1048,9 @@ function isFieldSet($data, $id) {
 }
 
 function getElementFromReference($reference) {
-	global $referenceClasses;
+	global $referenceClasses, $paramDbName;
 
-	$query = "SELECT DISTINCT TABLE_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE COLUMN_NAME IN ('reference') AND TABLE_SCHEMA='projeqtor'";
+	$query = "SELECT DISTINCT TABLE_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE COLUMN_NAME IN ('reference') AND TABLE_SCHEMA='$paramDbName'";
 	$tables = Sql::query($query);
 	$results = array();
 	foreach ($tables as $table) {
@@ -2004,7 +2004,7 @@ if (isset($input["action"])) {
 				$ref = $input["content"];
 
 				if (preg_match('/[^\da-zA-Z\-]/', $ref) === 0) {
-					$query = "SELECT DISTINCT TABLE_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE COLUMN_NAME IN ('reference') AND TABLE_SCHEMA='projeqtor'";
+					$query = "SELECT DISTINCT TABLE_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE COLUMN_NAME IN ('reference') AND TABLE_SCHEMA='$paramDbName'";
 					$tables = Sql::query($query);
 
 					$results = array();
@@ -2014,7 +2014,7 @@ if (isset($input["action"])) {
 
 						$obj = new $class();
 
-						$name = Sql::query("SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE COLUMN_NAME='name' AND TABLE_NAME='".$table["TABLE_NAME"]."' AND TABLE_SCHEMA='projeqtor'");
+						$name = Sql::query("SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE COLUMN_NAME='name' AND TABLE_NAME='".$table["TABLE_NAME"]."' AND TABLE_SCHEMA='$paramDbName'");
 
 						$hasName = (is_a($name, "PDOStatement") and $name->rowCount() != 0);
 
