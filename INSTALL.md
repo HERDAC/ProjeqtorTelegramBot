@@ -3,6 +3,8 @@
 This file will cover every steps required to install any version of this bot.
 It is a cumulative install: each version contains only the new or changed files, so some other required files are located in previous versions, but don't worry, everything is explained below.
 
+### This repository only contains the necessary files for the telegram bot. You need [ProjeQtOr](https://www.projeqtor.org/en/) for it to work.
+
 ## 1. The Bot
 
 This is the first step to make the whole thing work.
