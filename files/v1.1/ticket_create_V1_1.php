@@ -125,7 +125,7 @@ function insert_projeqtor($data) {
 	require("../external/phpAES/aes.class.php");
 	require("../external/phpAES/aesctr.class.php");
 
-	$url = "http://admin.herdac.ch/api/Ticket";
+	$url = "PROJEQTOR-URL/api/Ticket";
 
 	$data = AesCtr::encrypt(json_encode($data), 'PROJEQTOR-API', 128);
 	$curl = curl_init($url);
