@@ -30,3 +30,7 @@ The node-red flow is essential. It gets the message updates from the bot and cal
 Until V5.0, the bot is split into two files: `telegram_bot.php` and `ticket_create.php`. After V5.0, only `telegram_bot.php` is used.
 Until V5.0, the file `telegram_bot.php` uses the API to retrieve information so you will need the API key for the new user.
 Replace "`PROJEQTOR-URL`" in the files with the url to your projeqtor. Replace "`ADMIN-CHATID`" in the files with the chat id of the admin responsible for the bot.
+
+## Installation
+
+To install this bot, check [INSTALL.md](https://github.com/HERDAC/ProjeqtorTelegramBot/blob/main/INSTALL.md)
