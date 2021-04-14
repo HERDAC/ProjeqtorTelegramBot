@@ -35,7 +35,7 @@ The first time, you'll need to add the bot by clicking on the pencil icon and fi
 ## 3. ProjeQtOr modifications and additions
 
 ### 3.1 Files
-Some files have been added (for example `TicketTemplate.php`) and other modified (for example `UserMain.php`). In the version folder, read the "`files.md`" (if any) and follow the instructions.
+Some files have been added (for example `TicketTemplate.php`) and other modified (for example `UserMain.php`). In the version folder, read the "`files.md`" (if any) and follow the instructions. For most versions, there's only the script file and the node-red flow (often only the url to the script is changed in the Http Request node).
 
 There may also be a "`modifications.sql`" file which you will need to execute in your projeqtor database.
 
