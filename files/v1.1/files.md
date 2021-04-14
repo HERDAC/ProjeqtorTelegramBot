@@ -12,3 +12,5 @@ ticket_create_V1_1.php | projeqtor/tool/
 ```SCSS
 .ProjeQtOrNewGui .iconTicketTemplate { background-image: url(customIcons/new/iconTicketTemplate.svg);  background-repeat: no-repeat; }
 ```
+
+**Requirements: V1.0**
