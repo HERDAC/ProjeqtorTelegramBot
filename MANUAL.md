@@ -12,7 +12,7 @@ Of course you can change the commands name to whatever you want (from V1.2 and o
 ## If you're new to Telegram:
 
 ### How to talk to the bot
-After you've created the bot, just search it's name in the search bar, for example "@YourBot".
+After you've created the bot, just search its name in the search bar, for example "@YourBot".
 When you start a new conversation with the bot, you will normally be prompted with a message asking you to run "/start".
 Just click on it to initialize your discussion.
 
