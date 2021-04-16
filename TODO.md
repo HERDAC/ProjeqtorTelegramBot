@@ -22,9 +22,8 @@ Planned changes to this project will be documented in this file.
 
 ## V6.2.0
  * [ ] Create change requests
+ * [ ] Possibility to add sub tasks
 
-## VX.X
- * [ ] Display checklists and job lists
+## VX.X.X
  * [ ] Display reports
  * [ ] Create and display leaves
- * [ ] Possibility to add sub tasks
