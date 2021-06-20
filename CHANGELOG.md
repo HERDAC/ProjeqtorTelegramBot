@@ -111,3 +111,9 @@ All notable changes to this project will be documented in this file.
      * When you press "Ajouter", just send files to attach them. If you add a caption to the message containing the file, it will use this caption as its name. If you add a caption to a message containing multiple files, it will use this caption as the name for all the files. It may take a few seconds to add the files (rate limited to 1 file per second to avoid invalid data due to poor code structure, will be improved later)
      * If there are attachments, you can delete them by clicking on "Supprimer" and then selecting the ones you want to remove
    * Attachments are displayed on the ticket summary at the end of the creation process
+
+## V4.2 - 2021-06-20
+ 
+### Fixed
+ * Work time is now attributed to the correct user when using the start/stop work button.
+ * When displaying an element by reference, if there are multiple items with the same reference, a menu will let you choose the correct one.
