@@ -101,7 +101,7 @@ $msgs = array(
 			 "\n".
 			 "\nCréateur:".
 			 "\n        @Baryhobal".
-			 "\n        lordbaryhobal@gmail.com",
+			 "\n        baryhobal@herdac.ch",
 
 	"unavailable" => "_Commande stoppée, message indisponible_",
 	"unavailable-create" => "_Création annulée, message indisponible_",
