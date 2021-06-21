@@ -7,7 +7,7 @@ Planned changes to this project will be documented in this file.
 
 ## V5.0
  * [ ] Display templates to defined which fields are visible when using /display
- * [ ] Possibility to add notes
+ * [x] Possibility to add notes
 
 ## V5.1
  * [ ] Use database to store data
