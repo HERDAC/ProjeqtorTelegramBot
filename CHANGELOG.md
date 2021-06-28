@@ -117,3 +117,8 @@ All notable changes to this project will be documented in this file.
 ### Fixed
  * Work time is now attributed to the correct user when using the start/stop work button.
  * When displaying an element by reference, if there are multiple items with the same reference, a menu will let you choose the correct one.
+
+## V5.0 - 2021-06-28
+
+### Added
+ * You can now view notes from elements, reply to them or create new ones.
