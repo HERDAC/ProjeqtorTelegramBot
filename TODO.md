@@ -6,17 +6,15 @@ Planned changes to this project will be documented in this file.
  * [x] Fix issue with work time being attributed to wrong user
 
 ## V5.0
- * [ ] Display templates to defined which fields are visible when using /display
  * [x] Possibility to add notes
-
-## V5.1
- * [ ] Use database to store data
- * [ ] Use ProjeQtOr's rights system
 
 ## V6.0.0
  * [ ] Refactorization
+ * [ ] Use database to store data
+ * [ ] Display templates to defined which fields are visible when using /display
 
 ## V6.1.0
+ * [ ] Use ProjeQtOr's rights system
  * [ ] Display equipments
  * [ ] Change equipment locations
 
