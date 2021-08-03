@@ -13,10 +13,10 @@ Planned changes to this project will be documented in this file.
    * [x] Configuration through projeqtor
    * [x] About cmd
    * [x] Report cmd
-   * [ ] Display
-     * [ ] Choice _(in progress)_
-     * [ ] Reference
-     * [ ] Inline query
+   * [ ] Display _(in progress)_
+     * [x] Choice
+     * [x] Reference
+     * [x] Inline query
    * [ ] Create _(in progress)_
  * [x] Use database to store data
  * [ ] Display templates to defined which fields are visible when using /display
