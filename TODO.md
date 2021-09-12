@@ -17,6 +17,7 @@ Planned changes to this project will be documented in this file.
      * [x] Choice
      * [x] Reference
      * [x] Inline query
+     * [ ] Questions
    * [ ] Create _(in progress)_
  * [x] Use database to store data
  * [ ] Display templates to defined which fields are visible when using /display
