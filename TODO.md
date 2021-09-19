@@ -13,14 +13,14 @@ Planned changes to this project will be documented in this file.
    * [x] Configuration through projeqtor
    * [x] About cmd
    * [x] Report cmd
-   * [ ] Display _(in progress)_
+   * [x] Display _(in progress)_
      * [x] Choice
      * [x] Reference
      * [x] Inline query
      * [x] Questions
    * [x] Create
  * [x] Use database to store data
- * [ ] Display templates to defined which fields are visible when using /display
+ * [x] Display templates to define which fields are visible when using /display
 
 ## V6.1.0
  * [ ] Use ProjeQtOr's rights system
