@@ -9,7 +9,7 @@ Planned changes to this project will be documented in this file.
  * [x] Possibility to add notes
 
 ## V6.0.0
- * [ ] Refactorization
+ * [x] Refactorization
    * [x] Configuration through projeqtor
    * [x] About cmd
    * [x] Report cmd
@@ -19,8 +19,10 @@ Planned changes to this project will be documented in this file.
      * [x] Inline query
      * [x] Questions
    * [x] Create
+     * [x] Summary 
  * [x] Use database to store data
  * [x] Display templates to define which fields are visible when using /display
+ * [ ] Translations
 
 ## V6.1.0
  * [ ] Use ProjeQtOr's rights system
