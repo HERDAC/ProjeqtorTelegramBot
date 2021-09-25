@@ -22,7 +22,7 @@ Planned changes to this project will be documented in this file.
      * [x] Summary 
  * [x] Use database to store data
  * [x] Display templates to define which fields are visible when using /display
- * [ ] Translations
+ * [x] Translations
 
 ## V6.1.0
  * [ ] Use ProjeQtOr's rights system
