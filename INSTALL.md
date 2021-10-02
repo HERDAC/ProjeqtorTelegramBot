@@ -53,3 +53,5 @@ As of V4.1, no translation is provided for the bot's messages, buttons and feedb
 Additionnally, every message is currently hard-coded in the script file.
 In a future version (normally soon, maybe V6.0), these messages will be moved to the database and it will use the translation system for easier internationalization.
 So until then, you will have to translate everything in the file.
+
+**Update**: V6.0.0 is now done. It finally implements the internationalization system to allow translations. You can find more details in [V6.0.0's files.md](https://github.com/HERDAC/ProjeqtorTelegramBot/blob/b83af34c48580eaec52dc3e2727a2c2ef4685fe9/files/v6.0.0/files.md). All messages and buttons are currently available both in french and in english. If you wish to translate them in your language, feel free to share it in this repo.
