@@ -83,6 +83,7 @@ telegramDisplayTemplateVisibleButtons.php | projeqtor/tool/
 7. Add the translations to projeqtor:
    - `i18n_en.js` -> english
    - `i18n_fr.js` -> french
+   
    You can either add them through the interface or directly to the corresponding file in `projetqor/plugin/nls/{lang}/lang.js`.
 
 8. You can now configure the bot through projeqtor, in the global parameters menu, under the Telegram Bot section.
