@@ -8,17 +8,19 @@ Feel free to send your own ideas, though you should probably post them on [Proje
 
 To make this bot work, I first had to create a new user on projeqtor with admin rights. I obvisously created a [telegram bot](https://core.telegram.org/bots) and also a node-red flow.
 
+**IMPORTANT**: From V6.0.0 on, all variables described below (PROJEQTOR-USER, BOT-TOKEN, etc.) are stored in the database. They can be modified through projeqtor itself, in the global parameters section.
+
 ### The projeqtor user
 
 Nothing special, just admin rights.
 
-Replace "`PROJEQTOR-USER`" in the files with its name.
+Replace "`PROJEQTOR-USER`" in the files with its name (V5.0-).
 
-Replace "`PROJEQTOR-PWD`" in the files with the password for this user. Replace "`PROJEQTOR-API`" in the files with the api key of this user. (V1.2-)
+Replace "`PROJEQTOR-PWD`" in the files with the password for this user (V1.2-). Replace "`PROJEQTOR-API`" in the files with the api key of this user. (V1.2-)
 
 ### The bot
 
-Replace "`BOT-TOKEN`" in the files with the token. A separated parameter will be used in the future for easier access.
+Replace "`BOT-TOKEN`" in the files with the token. A separated parameter will be used in the future for easier access. (V5.0-)
 From V4.0+, set the bot to [inline mode](https://core.telegram.org/bots/inline).
 
 ### Node-red
