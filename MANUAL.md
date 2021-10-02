@@ -29,20 +29,24 @@ This command stops any other ongoing command.
 
 ## `/state` (V1.0+)
 This command displays current data for the user. (For debugging purposes)
+It can be disabled/enabled from V6.0.0-
 
 ## `/report` (V1.2+)
 This command sends user data to an admin for debugging.
 
-## `/afficher` (V2.0+)
+## `/afficher` (V2.0 to V5.0)
 This command let you display information about a ticket or an activity (V2.0+), a question (V4.0+), or any other elements (VX.X).
 
 ## `/about` (V2.0+)
 This command displays information about the bot.
 
-## `/reference` (V4.0+)
+## `/reference` (V4.0 to V5.0)
 This command let you display information about an elements from there reference.
+
+## `/chercher` (V6.0.0+)
+This command is a combination of `/afficher` and `/reference`.
 
 ## Special inline command: @YourBot (V4.0+)
 When you type "@YourBot " (replace YourBot with the name of your bot), you will see a list of references appear above the text input box.
 As you start typing a reference after "@YourBot", it will filter the list to matching entries.
-If you select one, it will run the command "/reference" with the corresponding reference.
+If you select one, it will run the command "/chercher" ("/reference" prior to V6.0.0) with the corresponding reference.
