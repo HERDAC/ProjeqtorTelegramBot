@@ -8,7 +8,7 @@ Feel free to send your own ideas, though you should probably post them on [Proje
 
 To make this bot work, I first had to create a new user on projeqtor with admin rights. I obvisously created a [telegram bot](https://core.telegram.org/bots) and also a node-red flow.
 
-**IMPORTANT**: From V6.0.0 on, all variables described below (PROJEQTOR-USER, BOT-TOKEN, etc.) are stored in the database. They can be modified through projeqtor itself, in the global parameters section.
+> **IMPORTANT**: From V6.0.0 on, all variables described below (PROJEQTOR-USER, BOT-TOKEN, etc.) are stored in the database. They can be modified through projeqtor itself, in the global parameters section.
 
 ### The projeqtor user
 
