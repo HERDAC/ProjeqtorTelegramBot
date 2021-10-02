@@ -2,7 +2,7 @@
 
 File name              | Where it goes
 ---------------------- | -----------------
-iconTicketTemplate.php | projeqtor/view/css/customIcons/new/
+iconTicketTemplate.svg | projeqtor/view/css/customIcons/new/
 ticket_create_V1_1.php | projeqtor/tool/
 
 2. Execute modifications_V1_1.sql
