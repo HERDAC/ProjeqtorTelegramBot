@@ -29,7 +29,7 @@ This command stops any other ongoing command.
 
 ## `/state` (V1.0+)
 This command displays current data for the user. (For debugging purposes)
-It can be disabled/enabled from V6.0.0-
+It can be disabled/enabled from V6.0.0 and over
 
 ## `/report` (V1.2+)
 This command sends user data to an admin for debugging.
