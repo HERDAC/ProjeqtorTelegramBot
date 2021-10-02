@@ -122,3 +122,19 @@ All notable changes to this project will be documented in this file.
 
 ### Added
  * You can now view notes from elements, reply to them or create new ones.
+
+## V6.0.0 - 2021-10-02
+ 
+### Added
+ * Display templates, used when displaying elements
+ * Summary templates, which define what fields to display and in which order in the summary of `/create`
+ * New TelegramBotUser class, to store data for users, instead of a .dat file
+ * Translations !
+
+### Changed
+ * Refactorized entire script
+ * Bot settings are now store in the database and not directly written in the file. Accessible in ProjeQtOr's global parameters menu.
+ * `/afficher` and `/reference` are now combined in one command. Use `/chercher` (search) to do the following:
+   * `/chercher`: Same as old `/afficher`, but you can now also send a reference as with the old `/reference`
+   * `/chercher {reference}`: Same as old `/reference {reference}`
+   * Inline queries (aka @BotId) still works as before
