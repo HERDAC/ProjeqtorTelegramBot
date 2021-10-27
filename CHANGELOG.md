@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 (At the time this repo was created, the bot was already in V3.0, so there may be a lack of information or inaccuracy in what features were developped for previous versions)
 
 ## V1.0 - 2021-03-21
- 
+
 ### Added
  * Created the bot
  * Created ticket templates (available fields: type, project, urgency, context, activity)
@@ -19,7 +19,7 @@ All notable changes to this project will be documented in this file.
  * `/state` -> displays current data for the user (i.e. current command, set fields, etc.)
 
 ## V1.1 - 2021-03-22
- 
+
 ### Added
  * New fields in ticket templates: responsible (doesn't work until V4.0+), criticality
  * New editable fields with the bot: type, project, urgency, context, activity
@@ -32,7 +32,7 @@ All notable changes to this project will be documented in this file.
  * Only models with accessible projects for the user are selectable
 
 ## V1.2 - 2021-03-23
- 
+
 ### Added
  * `/report` -> sends user data to an admin for debugging
  
@@ -42,7 +42,7 @@ All notable changes to this project will be documented in this file.
  * Commands name can be modified more easily (`$commands` array)
 
 ## V2.0 - 2021-03-28
- 
+
 ### Added
  * You can display information about a ticket or an activity
    * `/afficher` -> starts the process
@@ -64,12 +64,12 @@ All notable changes to this project will be documented in this file.
    > name state-emoji priority-emoji
 
 ## V2.2 - 2021-04-05
- 
+
 ### Changed
  * When selecting a project to display elements, you can choose only the selected project or include its sub-projects recursively
 
 ## V3.0 - 2021-04-07
- 
+
 ### Added
  * You can create questions:
    * `/creer`
@@ -91,7 +91,7 @@ All notable changes to this project will be documented in this file.
  * Only accessible projects to the user are available when display an element
 
 ## V4.0 - 2021-04-10
- 
+
 ### Added
  * You can display questions with `/afficher`:
    * The "Assign" and "Answer" buttons may be available if the question has the right status
@@ -104,7 +104,7 @@ All notable changes to this project will be documented in this file.
  * Responsible is now correctly set when a ticket template is used
 
 ## V4.1 - 2021-04-11
- 
+
 ### Added
  * You can now attach files when creating a ticket
    * New button in the field selection menu
@@ -113,7 +113,7 @@ All notable changes to this project will be documented in this file.
    * Attachments are displayed on the ticket summary at the end of the creation process
 
 ## V4.2 - 2021-06-20
- 
+
 ### Fixed
  * Work time is now attributed to the correct user when using the start/stop work button.
  * When displaying an element by reference, if there are multiple items with the same reference, a menu will let you choose the correct one.
@@ -124,7 +124,7 @@ All notable changes to this project will be documented in this file.
  * You can now view notes from elements, reply to them or create new ones.
 
 ## V6.0.0 - 2021-10-02
- 
+
 ### Added
  * Display templates, used when displaying elements
  * Summary templates, which define what fields to display and in which order in the summary of `/create`
@@ -138,3 +138,12 @@ All notable changes to this project will be documented in this file.
    * `/chercher`: Same as old `/afficher`, but you can now also send a reference as with the old `/reference`
    * `/chercher {reference}`: Same as old `/reference {reference}`
    * Inline queries (aka @BotId) still works as before
+
+## V6.0.1 - 2021-10-27
+
+### Fixed
+ * "Leave empty" button when selecting a template (ticket creation) now works
+ * "Leave empty" button when choosing a project (ticket creation) now works
+ * Added translations for "telegramBotMsgFieldProj" and "telegramBotMsgInvalidFieldEstimatedWork"
+ * When using the search command, if no display template is defined, a message is now displayed (instead of crashing)
+ * When selecting a template/urgency/priority/criticality/..., only non-idle items are displayed
