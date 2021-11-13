@@ -13,7 +13,9 @@ TelegramDisplayTemplate.php | projeqtor/model/
 6. Add the translations to projeqtor (beware of doubles):
    - `i18n_en.js` -> english
    - `i18n_fr.js` -> french
-   You can either add them through the interface or directly to the corresponding file in `projetqor/plugin/nls/{lang}/lang.js`.
+   
+   You can either add them through the interface or directly to the corresponding file in `projeqtor/plugin/nls/{lang}/lang.js`.
+
 7. Modify the file projeqtor/view/parameter.php
    - After
       ```php
