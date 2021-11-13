@@ -29,7 +29,7 @@ telegramDisplayTemplateVisibleButtons.php | projeqtor/tool/
       ```
 
      Add at the end of the array the following values:
-      ```
+      ```php
       'tabTelegramBot'=>"tab",
         'newColumnTelegramBot'=>'newColumnFull',
         'sectionTelegramBotGeneral'=>'section',
