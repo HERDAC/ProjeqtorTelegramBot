@@ -2,7 +2,7 @@
 
 File name               | Where it goes
 ----------------------- | -----------------
-telegram_bot_V6_0_0.php | projeqtor/tool/
+telegram_bot_V6_0_1.php | projeqtor/tool/
 
 
 2. In "`flows.json`", replace PROJEQTOR-URL with the url to your ProjeQtOr (for example https://some.domain.com/projeqtor)
