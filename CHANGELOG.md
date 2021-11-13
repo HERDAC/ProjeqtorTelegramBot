@@ -147,3 +147,28 @@ All notable changes to this project will be documented in this file.
  * Added translations for "telegramBotMsgFieldProj" and "telegramBotMsgInvalidFieldEstimatedWork"
  * When using the search command, if no display template is defined, a message is now displayed (instead of crashing)
  * When selecting a template/urgency/priority/criticality/..., only non-idle items are displayed
+
+## V6.1.0 - 2021-11-13
+
+### Added
+ * You can now create sub-tasks ("points à traiter") with the create command
+ * You can configure which profile can use the create and search commands (in habilitation, specific access)
+ * Fixed major security breach: credentials are now required to access the script.
+
+### Changed
+ * The system used for defining which fields can be set for each class has been reworked to be more flexible. (see function getEditableFields for examples)
+
+### Fixed
+ * Added translations for:
+   * "telegramBotMsgNoClasses"
+   * "telegramBotMsgRefClass"
+   * changed "telegramBotMsgCreateName" to "telegramBotMsgFieldName"
+   * "telegramBotMsgCreatedNoRef"
+   * "telegramBotMsgFieldPrio"
+   * "telegramBotMsgNoRightCreate"
+   * "telegramBotMsgNoRightDisplay"
+   * "telegramBotRights"
+   * "telegramBotRightCreate"
+   * "telegramBotRightSearch"
+ * The description of elements is now correctly displayed (stripping html tags)
+ * ProjeQtOr's access rights are now respected. Users can only create and view elements if they can through ProjeQtOr
