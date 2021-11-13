@@ -25,12 +25,12 @@ Planned changes to this project will be documented in this file.
  * [x] Translations
 
 ## V6.1.0
- * [ ] Possibility to add sub tasks
- * [ ] Use ProjeQtOr's rights system
- * [ ] Display equipments
- * [ ] Change equipment locations
+ * [x] Possibility to add sub tasks
+ * [x] Use ProjeQtOr's rights system
 
 ## V6.2.0
+ * [ ] Display equipments
+ * [ ] Change equipment locations
  * [ ] Create change requests
 
 ## VX.X.X
