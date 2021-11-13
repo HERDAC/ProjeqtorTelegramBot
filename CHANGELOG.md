@@ -167,7 +167,7 @@ All notable changes to this project will be documented in this file.
    * "telegramBotMsgFieldPrio"
    * "telegramBotMsgNoRightCreate"
    * "telegramBotMsgNoRightDisplay"
-   * "telegramBotRights"
+   * "telegramRights"
    * "telegramBotRightCreate"
    * "telegramBotRightSearch"
  * The description of elements is now correctly displayed (stripping html tags)
