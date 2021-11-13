@@ -814,12 +814,7 @@ class CommandHandler {
 							$this->applyTemplate($callback["id"]);
 						}
 
-						if (false && $this->botUser->getData("createClass") == "Question") {
-							$this->askConfirmation(false);
-
-						} else {
-							$this->fieldChoice();
-						}
+						$this->fieldChoice();
 					}
 				} else if ($cbAction == "return") {
 					$this->fieldChoice();
@@ -880,12 +875,7 @@ class CommandHandler {
 				if ($cbAction == "modify") {
 					$createClass = $this->botUser->getData("createClass");
 
-					if (false and $createClass === "Question") {
-						log_msg("ERROR: Questions can not be modified");
-
-					} else {
-						$this->fieldChoice();
-					}
+					$this->fieldChoice();
 
 				} else if ($cbAction == "create") {
 					$this->createElement();
@@ -1851,12 +1841,7 @@ class CommandHandler {
 		} else if ($currentCommand === "create") {
 			$createClass = $this->botUser->getData("createClass");
 
-			if (false && $createClass === "Question") {
-				$this->askField("desc","description","text");
-
-			} else {
-				$this->fieldChoice();
-			}
+			$this->fieldChoice();
 
 		} else {
 			log_msg("Project chosen but command is neither create nor search. Current command: " . ($currentCommand ?? "none") );
