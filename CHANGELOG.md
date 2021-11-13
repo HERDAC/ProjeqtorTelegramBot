@@ -167,6 +167,8 @@ All notable changes to this project will be documented in this file.
    * "telegramBotMsgFieldPrio"
    * "telegramBotMsgNoRightCreate"
    * "telegramBotMsgNoRightDisplay"
+   * "telegramBotMsgNoRightCreateCmd"
+   * "telegramBotMsgNoRightSearchCmd"
    * "telegramRights"
    * "telegramBotRightCreate"
    * "telegramBotRightSearch"
