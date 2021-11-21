@@ -1,0 +1,20 @@
+name: Psalm Security Scan
+
+on: [push, pull_request]
+
+jobs:
+  psalm:
+    name: Psalm
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Psalm Security Scan
+        uses: docker://ghcr.io/psalm/psalm-security-scan
+      
+      - name: Psalm – Security Scanner for PHP
+        uses: psalm/psalm-github-security-scan@1.2.1
+        with:
+          # File for Psalm’s output
+          report_file: results.sarif
